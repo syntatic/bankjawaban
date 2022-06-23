@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import AddIndie from "./pages/Add_indie";
+// import AddQuiz from "./pages/Add_quiz";
+// import AddMatkul from "./pages/Add_matkul";
+// import Quizzes from "./pages/Quizzes";
+// import Login from "./pages/Login";
+import './style.scss'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Login/> */}
+      {/* <Quizzes/> */}
+      {/* <AddMatkul/> */}
+      {/* <AddQuiz/> */}
+      <AddIndie/>
     </div>
   );
 }
